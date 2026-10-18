@@ -1,0 +1,40 @@
+bun test v1.4.2 (744846f84)
+
+tests/core.test.ts:
+(pass) catalog has 32 unique complete sequential tools [0.91ms]
+(pass) four general packages and seven hardware choices [0.09ms]
+(pass) startup checks are opt-in [0.03ms]
+(pass) version-stamped assets select future versions [0.41ms]
+(pass) mixed-product Cline repository selects extension not desktop [0.13ms]
+(pass) missing asset is a visible error, not a silent skip [1.17ms]
+(pass) prerelease/draft releases excluded [0.05ms]
+(pass) ambiguous matches rejected [0.09ms]
+(pass) repository validation > https://github.com/attacker/repo/releases/download/v1/setup.exe [0.03ms]
+(pass) repository validation > https://github.com.evil.test/janhq/jan/releases/download/v1/x
+(pass) repository validation > http://github.com/janhq/jan/releases/download/v1/x
+(pass) repository validation > https://user:pw@github.com/janhq/jan/releases/download/v1/x [0.01ms]
+(pass) repository validation > unsafe filename [0.03ms]
+(pass) repository validation > invalid checksum [0.05ms]
+(pass) repository validation > invalid size [0.03ms]
+(pass) local URLs accept localhost, ipv6, private LAN [0.14ms]
+(pass) remote, unsafe and credential URLs rejected [0.10ms]
+(pass) byte units use MiB/GiB not mislabeled MB [1.42ms]
+
+tests/downloads.test.ts:
+(pass) streams bytes and verifies published SHA-256 [26.84ms]
+(pass) checksum mismatch preserves prior valid package and cleans partials [3.38ms]
+(pass) wrong size rejected and partial cleaned [1.44ms]
+(pass) unapproved redirect rejected [0.26ms]
+(pass) cancellation cleans temporary file [1.54ms]
+(pass) no digest does not pretend checksum verified [1.24ms]
+
+tests/storage.test.ts:
+(pass) legacy registrations migrate safely [1.05ms]
+(pass) atomic settings round-trip [2.11ms]
+(pass) concurrent writes serialize without lost updates [0.46ms]
+(pass) corrupt settings are preserved for recovery [1.21ms]
+
+ 28 pass
+ 0 fail
+ 146 expect() calls
+Ran 28 tests across 3 files. [76.00ms]

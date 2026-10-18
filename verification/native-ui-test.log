@@ -1,0 +1,61 @@
+{
+  "native": true,
+  "cards": 32,
+  "categories": 9,
+  "searchWhisper": 2,
+  "videoCards": 4,
+  "hardwareChoices": 7,
+  "registrationRoundTrip": true,
+  "settingsSaved": true,
+  "rendererErrors": [],
+  "releaseChecks": [
+    {
+      "id": "anythingllm",
+      "label": "AnythingLLM",
+      "version": "v1.17.0",
+      "name": "AnythingLLMDesktop.exe",
+      "bytes": 410136032,
+      "url": "https://github.com/Mintplex-Labs/anything-llm/releases/download/v1.17.0/AnythingLLMDesktop.exe",
+      "digest": "a01321232be435a2465a42d14e3105a953a2b9536f5d459032c40acbbfc9b90e",
+      "downloaded": false
+    },
+    {
+      "id": "jan",
+      "label": "Jan",
+      "version": "v0.8.6",
+      "name": "Jan_0.8.6_x64-setup.exe",
+      "bytes": 556441144,
+      "url": "https://github.com/janhq/jan/releases/download/v0.8.6/Jan_0.8.6_x64-setup.exe",
+      "digest": "f47f2d205eb92743bdd60ffe7d3b7b434b45a97a8dce092c1185c97d1f5a5268",
+      "downloaded": false
+    },
+    {
+      "id": "krita-ai-diffusion",
+      "label": "Krita AI Diffusion",
+      "version": "v1.53.0",
+      "name": "krita_ai_diffusion-1.53.0.zip",
+      "bytes": 3140257,
+      "url": "https://github.com/Acly/krita-ai-diffusion/releases/download/v1.53.0/krita_ai_diffusion-1.53.0.zip",
+      "digest": "05b4e4072faecbcfa441a8829c97492cfe35974c92e407d0197db4e78ec91cbe",
+      "downloaded": false
+    },
+    {
+      "id": "cline",
+      "label": "Cline",
+      "version": "v4.1.23",
+      "name": "cline-4.1.23.vsix",
+      "bytes": 9077769,
+      "url": "https://github.com/cline/cline/releases/download/v4.1.23/cline-4.1.23.vsix",
+      "digest": "8d3145e694af56806e0c5f34949cfda645a67a2a4ff93008cb75cb0e606cc7a6",
+      "downloaded": false
+    }
+  ],
+  "unapprovedLink": {
+    "ok": false,
+    "message": "Not an approved official project link."
+  },
+  "unregisteredLaunch": {
+    "ok": false,
+    "message": "Register a local target first."
+  }
+}

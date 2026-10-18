@@ -1,0 +1,23 @@
+import { test, expect, describe } from 'bun:test';
+import { tools } from '../hubx-core/catalog';
+import { sources, selectAsset, validateAsset, validLocalUrl, formatBytes } from '../hubx-core/releases';
+import { defaultState } from '../hubx-core/contracts';
+const jan=sources.find(s=>s.id==='jan')!;
+const asset=(name='Jan_9.0.0_x64-setup.exe',extra={})=>({name,size:10,browser_download_url:`https://github.com/${jan.repo}/releases/download/v9.0.0/${name}`, ...extra});
+test('catalog has 32 unique complete sequential tools',()=>{expect(tools).toHaveLength(32);expect(new Set(tools.map(t=>t.id)).size).toBe(32);tools.forEach((t,i)=>{expect(t.marker).toBe(String(i+1).padStart(2,'0'));expect(t.runtime.length).toBeGreaterThan(10);expect(t.setupUrl).toStartWith('https://');});});
+test('four general packages and seven hardware choices',()=>{expect(sources.filter(s=>!s.hardware)).toHaveLength(4);expect(sources.filter(s=>s.hardware)).toHaveLength(7);});
+test('startup checks are opt-in',()=>expect(defaultState().settings.automaticChecks).toBe(false));
+test('version-stamped assets select future versions',()=>{const result=selectAsset(jan,[{tag_name:'v9.0.0',assets:[asset()]}]);expect(result.asset.name).toBe('Jan_9.0.0_x64-setup.exe');});
+test('mixed-product Cline repository selects extension not desktop',()=>{const cline=sources.find(s=>s.id==='cline')!;expect(selectAsset(cline,[{tag_name:'desktop-v99',assets:[]},{tag_name:'v9.9.9',assets:[{name:'cline-9.9.9.vsix',size:5,browser_download_url:'https://github.com/cline/cline/releases/download/v9.9.9/cline-9.9.9.vsix'}]}]).release.tag_name).toBe('v9.9.9');});
+test('missing asset is a visible error, not a silent skip',()=>expect(()=>selectAsset(jan,[{tag_name:'v1',assets:[]}])).toThrow('No matching'));
+test('prerelease/draft releases excluded',()=>expect(()=>selectAsset(jan,[{tag_name:'v9',prerelease:true,assets:[asset()]},{tag_name:'v10',draft:true,assets:[asset()]}])).toThrow());
+test('ambiguous matches rejected',()=>expect(()=>selectAsset(jan,[{tag_name:'v9',assets:[asset(),asset('Jan_9.1.0_x64-setup.exe')]}])).toThrow('Ambiguous'));
+describe('repository validation',()=>{
+ for(const url of ['https://github.com/attacker/repo/releases/download/v1/setup.exe','https://github.com.evil.test/janhq/jan/releases/download/v1/x','http://github.com/janhq/jan/releases/download/v1/x','https://user:pw@github.com/janhq/jan/releases/download/v1/x'])test(url,()=>expect(()=>validateAsset(jan,asset(undefined,{browser_download_url:url}))).toThrow());
+ test('unsafe filename',()=>expect(()=>validateAsset(jan,asset('../escape.exe'))).toThrow());
+ test('invalid checksum',()=>expect(()=>validateAsset(jan,asset(undefined,{digest:'md5:wrong'}))).toThrow());
+ test('invalid size',()=>expect(()=>validateAsset(jan,asset(undefined,{size:0}))).toThrow());
+});
+test('local URLs accept localhost, ipv6, private LAN',()=>{for(const u of ['http://localhost:3000','http://127.0.0.1:8','http://[::1]:9','http://192.168.1.4','http://10.2.3.4','https://172.16.0.9'])expect(validLocalUrl(u)).toBe(true);});
+test('remote, unsafe and credential URLs rejected',()=>{for(const u of ['https://example.com','file:///etc/passwd','javascript:alert(1)','https://localhost.evil.test','http://user:pass@localhost','invalid'])expect(validLocalUrl(u)).toBe(false);});
+test('byte units use MiB/GiB not mislabeled MB',()=>{expect(formatBytes(1048576)).toBe('1.0 MiB');expect(formatBytes(1073741824)).toBe('1.00 GiB');});

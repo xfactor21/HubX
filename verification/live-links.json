@@ -1,0 +1,393 @@
+{
+  "checkedAt": "2026-10-13T05:46:43.439Z",
+  "urls": [
+    {
+      "url": "https://anythingllm.com/download",
+      "status": 200
+    },
+    {
+      "url": "https://jan.ai/",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/Mintplex-Labs/anything-llm",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/janhq/jan",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/danny-avila/LibreChat",
+      "status": 200
+    },
+    {
+      "url": "https://www.librechat.ai/docs/",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/Mintplex-Labs/anything-llm/releases",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/janhq/jan/releases",
+      "status": 200
+    },
+    {
+      "url": "https://docs.comfy.org/installation/desktop/windows",
+      "status": 200
+    },
+    {
+      "url": "https://docs.khoj.dev/",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/khoj-ai/khoj",
+      "status": 200
+    },
+    {
+      "url": "https://invoke-ai.github.io/InvokeAI/installation/",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/invoke-ai/InvokeAI",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/Acly/krita-ai-diffusion",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/Lightricks/LTX-Video",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/Wan-Video/Wan2.1",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/Lightricks/LTX-Video#readme",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/Acly/krita-ai-diffusion#installation",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/Acly/krita-ai-diffusion/releases",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/lllyasviel/stable-diffusion-webui-forge#installation",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/lllyasviel/stable-diffusion-webui-forge",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/lllyasviel/stable-diffusion-webui-forge/releases",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/Wan-Video/Wan2.1#readme",
+      "status": 200
+    },
+    {
+      "url": "https://hpcaitech.github.io/Open-Sora/",
+      "status": 200
+    },
+    {
+      "url": "https://docs.browser-use.com/",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/hpcaitech/Open-Sora",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/OpenHands/OpenHands",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/zai-org/CogVideo",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/zai-org/CogVideo#readme",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/browser-use/browser-use",
+      "status": 200
+    },
+    {
+      "url": "https://microsoft.github.io/autogen/",
+      "status": 200
+    },
+    {
+      "url": "https://docs.crewai.com/",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/microsoft/autogen",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/cline/cline",
+      "status": 200
+    },
+    {
+      "url": "https://docs.all-hands.dev/",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/crewAIInc/crewAI",
+      "status": 200
+    },
+    {
+      "url": "https://docs.cline.bot/",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/OpenHands/OpenHands/releases",
+      "status": 200
+    },
+    {
+      "url": "https://aider.chat/docs/install.html",
+      "status": 200
+    },
+    {
+      "url": "https://docs.continue.dev/",
+      "status": 200
+    },
+    {
+      "url": "https://tabby.tabbyml.com/docs/",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/Aider-AI/aider",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/continuedev/continue",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/TabbyML/tabby",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/cline/cline/releases",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/TabbyML/tabby/releases",
+      "status": 200
+    },
+    {
+      "url": "https://docs.gptr.dev/",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/ItzCrazyKns/Vane",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/ItzCrazyKns/Vane#readme",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/Future-House/paper-qa#readme",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/Future-House/paper-qa",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/LearningCircuit/local-deep-research",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/LearningCircuit/local-deep-research#readme",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/assafelovic/gpt-researcher",
+      "status": 200
+    },
+    {
+      "url": "https://research.myshell.ai/open-voice",
+      "status": 200
+    },
+    {
+      "url": "https://ace-step.github.io/",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/openai/whisper#setup",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/openai/whisper",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/SYSTRAN/faster-whisper",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/SYSTRAN/faster-whisper#readme",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/myshell-ai/OpenVoice",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/ace-step/ACE-Step",
+      "status": 200
+    },
+    {
+      "url": "https://docs.flowiseai.com/",
+      "status": 200
+    },
+    {
+      "url": "https://docs.langflow.org/",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/simstudioai/sim",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/FlowiseAI/Flowise",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/langflow-ai/langflow",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/activepieces/activepieces",
+      "status": 200
+    },
+    {
+      "url": "https://docs.sim.ai/",
+      "status": 200
+    },
+    {
+      "url": "https://www.activepieces.com/docs/install/overview",
+      "status": 200
+    }
+  ],
+  "releases": [
+    {
+      "id": "anythingllm",
+      "label": "AnythingLLM",
+      "version": "v1.17.0",
+      "name": "AnythingLLMDesktop.exe",
+      "bytes": 410136032,
+      "url": "https://github.com/Mintplex-Labs/anything-llm/releases/download/v1.17.0/AnythingLLMDesktop.exe",
+      "digest": "a01321232be435a2465a42d14e3105a953a2b9536f5d459032c40acbbfc9b90e"
+    },
+    {
+      "id": "jan",
+      "label": "Jan",
+      "version": "v0.8.6",
+      "name": "Jan_0.8.6_x64-setup.exe",
+      "bytes": 556441144,
+      "url": "https://github.com/janhq/jan/releases/download/v0.8.6/Jan_0.8.6_x64-setup.exe",
+      "digest": "f47f2d205eb92743bdd60ffe7d3b7b434b45a97a8dce092c1185c97d1f5a5268"
+    },
+    {
+      "id": "krita-ai-diffusion",
+      "label": "Krita AI Diffusion",
+      "version": "v1.53.0",
+      "name": "krita_ai_diffusion-1.53.0.zip",
+      "bytes": 3140257,
+      "url": "https://github.com/Acly/krita-ai-diffusion/releases/download/v1.53.0/krita_ai_diffusion-1.53.0.zip",
+      "digest": "05b4e4072faecbcfa441a8829c97492cfe35974c92e407d0197db4e78ec91cbe"
+    },
+    {
+      "id": "cline",
+      "label": "Cline",
+      "version": "v4.1.23",
+      "name": "cline-4.1.23.vsix",
+      "bytes": 9077769,
+      "url": "https://github.com/cline/cline/releases/download/v4.1.23/cline-4.1.23.vsix",
+      "digest": "8d3145e694af56806e0c5f34949cfda645a67a2a4ff93008cb75cb0e606cc7a6"
+    },
+    {
+      "id": "comfyui-nvidia",
+      "label": "ComfyUI — NVIDIA",
+      "version": "v0.39.0",
+      "name": "ComfyUI_windows_portable_nvidia.7z",
+      "bytes": 2003629308,
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/download/v0.39.0/ComfyUI_windows_portable_nvidia.7z",
+      "digest": "3dca347842ed1c6c833105fafb1669284685a3e54df41578d5f94bcc898ae039"
+    },
+    {
+      "id": "comfyui-amd",
+      "label": "ComfyUI — AMD",
+      "version": "v0.39.0",
+      "name": "ComfyUI_windows_portable_amd.7z",
+      "bytes": 1621312076,
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/download/v0.39.0/ComfyUI_windows_portable_amd.7z",
+      "digest": "19be1e3c8690c4f9eeefb0f2ee8f835a98e2fbf33cd9b80d0ca309f4c86d37c1"
+    },
+    {
+      "id": "comfyui-intel",
+      "label": "ComfyUI — Intel",
+      "version": "v0.39.0",
+      "name": "ComfyUI_windows_portable_intel.7z",
+      "bytes": 1436509991,
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/download/v0.39.0/ComfyUI_windows_portable_intel.7z",
+      "digest": "50f629c3743b1fb64509d8e582ae30b06105d9614587a514e79ac9f3c3f62939"
+    },
+    {
+      "id": "forge-nvidia",
+      "label": "Forge — NVIDIA",
+      "version": "latest",
+      "name": "webui_forge_cu124_torch24.7z",
+      "bytes": 1891112892,
+      "url": "https://github.com/lllyasviel/stable-diffusion-webui-forge/releases/download/latest/webui_forge_cu124_torch24.7z"
+    },
+    {
+      "id": "tabby-cpu",
+      "label": "Tabby — CPU",
+      "version": "v0.32.0",
+      "name": "tabby_x86_64-windows-msvc-cpu.zip",
+      "bytes": 35562674,
+      "url": "https://github.com/TabbyML/tabby/releases/download/v0.32.0/tabby_x86_64-windows-msvc-cpu.zip",
+      "digest": "d492b1e49433fcdbe5be954ae54adf56a3f3cc20f8a824fa957b992b5ed3ac78"
+    },
+    {
+      "id": "tabby-cuda124",
+      "label": "Tabby — NVIDIA",
+      "version": "v0.32.0",
+      "name": "tabby_x86_64-windows-msvc-cuda124.zip",
+      "bytes": 159848926,
+      "url": "https://github.com/TabbyML/tabby/releases/download/v0.32.0/tabby_x86_64-windows-msvc-cuda124.zip",
+      "digest": "7f6632ccea11a8769ff698c27d11e8dc87e9db5b177999dd298112f2b12fc25d"
+    },
+    {
+      "id": "tabby-vulkan",
+      "label": "Tabby — AMD / Intel",
+      "version": "v0.32.0",
+      "name": "tabby_x86_64-windows-msvc-vulkan.zip",
+      "bytes": 44318871,
+      "url": "https://github.com/TabbyML/tabby/releases/download/v0.32.0/tabby_x86_64-windows-msvc-vulkan.zip",
+      "digest": "2395d582418a45a6c607c4f47acfa42ca7df6dc16d2932a9ce507e2c77f4cccb"
+    }
+  ]
+}

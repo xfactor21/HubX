@@ -1,0 +1,72 @@
+$ bun run scripts/package.ts win
+$ turbo build
+• turbo 2.9.18
+
+   • Packages in scope: @hubx/desktop, @template/mobile, @template/web
+   • Running build in 3 packages
+   • Remote caching disabled
+
+@template/web:build: cache miss, executing a921a69f8271792f
+@template/web:build: $ tsc --noEmit && vite build
+@hubx/desktop:build: cache hit, replaying logs a0b12f1deead3d50
+@hubx/desktop:build: $ vite build
+@hubx/desktop:build: vite v5.4.21 building for production...
+@hubx/desktop:build: transforming...
+@hubx/desktop:build: ✓ 1 modules transformed.
+@hubx/desktop:build: rendering chunks...
+@hubx/desktop:build: computing gzip size...
+@hubx/desktop:build: dist/assets/__no-renderer-DoO8kPjk.js  0.06 kB │ gzip: 0.08 kB
+@hubx/desktop:build: ✓ built in 52ms
+@hubx/desktop:build: vite v5.4.21 building for production...
+@hubx/desktop:build: transforming...
+@hubx/desktop:build: ✓ 12 modules transformed.
+@hubx/desktop:build: rendering chunks...
+@hubx/desktop:build: computing gzip size...
+@hubx/desktop:build: dist-electron/main.js  36.94 kB │ gzip: 10.83 kB
+@hubx/desktop:build: ✓ built in 159ms
+@hubx/desktop:build: vite v5.4.21 building for production...
+@hubx/desktop:build: transforming...
+@hubx/desktop:build: ✓ 2 modules transformed.
+@hubx/desktop:build: rendering chunks...
+@hubx/desktop:build: computing gzip size...
+@hubx/desktop:build: dist-electron/preload.mjs  1.55 kB │ gzip: 0.53 kB
+@hubx/desktop:build: ✓ built in 16ms
+@template/web:build: vite v7.3.2 building client environment for production...
+@template/web:build: (node:10882) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+@template/web:build: (Use `node --trace-deprecation ...` to show where the warning was created)
+@template/web:build: transforming...
+@template/web:build: ✓ 114 modules transformed.
+@template/web:build: rendering chunks...
+@template/web:build: computing gzip size...
+@template/web:build: dist/index.html                   0.58 kB │ gzip:   0.37 kB
+@template/web:build: dist/assets/index-BEix__Ks.css   30.67 kB │ gzip:   7.56 kB
+@template/web:build: dist/assets/vendor-Cx0hMvIw.js   60.10 kB │ gzip:  18.93 kB
+@template/web:build: dist/assets/index-cDYW6tej.js   451.64 kB │ gzip: 141.76 kB
+@template/web:build: ✓ built in 2.05s
+
+ Tasks:    2 successful, 2 total
+Cached:    1 cached, 2 total
+  Time:    3.593s 
+
+  • electron-builder  version=26.15.3 os=6.1.158+
+  • loaded configuration  file=/home/user/hubx-repaired/packages/desktop/electron-builder.json5
+  • packageManager not detected by file, falling back to environment detection  resolvedPackageManager=bun detected=/home/user/hubx-repaired
+  • detected workspace root for project using packageManager field  pm=bun config=bun@1.3.14 resolved=/home/user/hubx-repaired projectDir=/home/user/hubx-repaired/packages/desktop
+  • executing @electron/rebuild  electronVersion=44.7.0 arch=x64 buildFromSource=false workspaceRoot=/home/user/hubx-repaired projectDir=./ appDir=./
+  • installing native dependencies  arch=x64
+  • completed installing native dependencies
+  • packaging       platform=win32 arch=x64 electron=44.7.0 appOutDir=/home/user/hubx-repaired/artifacts/win-unpacked
+  • downloaded      label=electron progress=100%
+  • downloaded electron zip extracted successfully  output=/home/user/hubx-repaired/artifacts/win-unpacked
+  • searching for node modules  pm=bun searchDir=/home/user/hubx-repaired/packages/desktop
+  • note: bun does not support any CLI for dependency tree extraction, utilizing file traversal collector instead
+  • using manual traversal of node_modules to build dependency tree
+  • updating asar integrity executable resource  executablePath=/home/user/hubx-repaired/artifacts/win-unpacked/HubX.exe
+  • signing with signtool.exe  path=/home/user/hubx-repaired/artifacts/win-unpacked/HubX.exe
+  • building        target=nsis file=/home/user/hubx-repaired/artifacts/HubX-3.1.1-Windows-x64-Setup.exe archs=x64 oneClick=false perMachine=false
+  • signing with signtool.exe  path=/home/user/hubx-repaired/artifacts/win-unpacked/resources/elevate.exe
+  • signing with signtool.exe  path=/home/user/hubx-repaired/artifacts/HubX-3.1.1-Windows-x64-Setup.__uninstaller.exe
+  • signing with signtool.exe  path=/home/user/hubx-repaired/artifacts/HubX-3.1.1-Windows-x64-Setup.exe
+  • building block map  blockMapFile=/home/user/hubx-repaired/artifacts/HubX-3.1.1-Windows-x64-Setup.exe.blockmap
+  • building        target=portable file=/home/user/hubx-repaired/artifacts/HubX-3.1.1-Windows-x64-portable.exe archs=x64
+  • signing with signtool.exe  path=/home/user/hubx-repaired/artifacts/HubX-3.1.1-Windows-x64-portable.exe

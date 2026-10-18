@@ -1,0 +1,4 @@
+$ runkit lint
+Checked 19 files in 58ms. No violations found.
+Found 0 warnings and 0 errors.
+Finished in 262ms on 60 files with 152 rules using 2 threads.

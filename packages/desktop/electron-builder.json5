@@ -1,0 +1,19 @@
+{
+  appId: 'im.planetx.hubx',
+  productName: 'HubX',
+  asar: true,
+  icon: 'icon.ico',
+  directories: { output: '../../artifacts' },
+  files: ['dist-electron/**/*', 'web-dist/**/*', 'package.json'],
+  win: { target: [{ target: 'nsis', arch: ['x64'] }, { target: 'portable', arch: ['x64'] }], artifactName: 'HubX-${version}-Windows-${arch}-Setup.${ext}' },
+  nsis: {
+    oneClick: false, perMachine: false, allowElevation: true,
+    allowToChangeInstallationDirectory: true, deleteAppDataOnUninstall: false,
+    createDesktopShortcut: false, createStartMenuShortcut: true,
+    menuCategory: 'HubX Apps', shortcutName: 'HubX', runAfterFinish: true,
+    installerSidebar: 'installerSidebar.bmp', uninstallerSidebar: 'installerSidebar.bmp',
+    include: 'installer.nsh', uninstallDisplayName: 'HubX launcher',
+  },
+  portable: { artifactName: 'HubX-${version}-Windows-${arch}-portable.exe' },
+  linux: { executableName: 'hubx', target: ['dir'], artifactName: 'HubX-${version}-Linux-${arch}.${ext}' },
+}

@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "message": "Downloaded and SHA-256 verified. Installation remains your choice.",
+  "state": {
+    "settings": {
+      "automaticChecks": false
+    },
+    "registrations": {},
+    "downloads": {
+      "krita-ai-diffusion": {
+        "id": "krita-ai-diffusion",
+        "label": "Krita AI Diffusion",
+        "version": "v1.53.0",
+        "name": "krita_ai_diffusion-1.53.0.zip",
+        "bytes": 3140257,
+        "url": "https://github.com/Acly/krita-ai-diffusion/releases/download/v1.53.0/krita_ai_diffusion-1.53.0.zip",
+        "digest": "05b4e4072faecbcfa441a8829c97492cfe35974c92e407d0197db4e78ec91cbe",
+        "downloaded": true
+      }
+    },
+    "welcomed": true
+  }
+}
