@@ -1,0 +1,650 @@
+{
+  "checkedAt": "2026-10-18",
+  "urls": [
+    {
+      "url": "https://github.com/Mintplex-Labs/anything-llm",
+      "status": 200,
+      "final": "https://github.com/Mintplex-Labs/anything-llm"
+    },
+    {
+      "url": "https://anythingllm.com/download",
+      "status": 200,
+      "final": "https://anythingllm.com/download"
+    },
+    {
+      "url": "https://github.com/Mintplex-Labs/anything-llm/releases",
+      "status": 200,
+      "final": "https://github.com/Mintplex-Labs/anything-llm/releases"
+    },
+    {
+      "url": "https://github.com/janhq/jan",
+      "status": 200,
+      "final": "https://github.com/janhq/jan"
+    },
+    {
+      "url": "https://jan.ai/",
+      "status": 200,
+      "final": "https://www.jan.ai/"
+    },
+    {
+      "url": "https://github.com/janhq/jan/releases",
+      "status": 200,
+      "final": "https://github.com/janhq/jan/releases"
+    },
+    {
+      "url": "https://github.com/LibreChat-AI/LibreChat",
+      "status": 200,
+      "final": "https://github.com/LibreChat-AI/LibreChat"
+    },
+    {
+      "url": "https://www.librechat.ai/docs/",
+      "status": 200,
+      "final": "https://www.librechat.ai/docs"
+    },
+    {
+      "url": "https://github.com/khoj-ai/khoj",
+      "status": 200,
+      "final": "https://github.com/khoj-ai/khoj"
+    },
+    {
+      "url": "https://docs.khoj.dev/",
+      "status": 200,
+      "final": "https://docs.khoj.dev/"
+    },
+    {
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "status": 200,
+      "final": "https://github.com/Comfy-Org/ComfyUI"
+    },
+    {
+      "url": "https://docs.comfy.org/installation/desktop/windows",
+      "status": 200,
+      "final": "https://docs.comfy.org/installation/desktop/windows"
+    },
+    {
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases",
+      "status": 200,
+      "final": "https://github.com/Comfy-Org/ComfyUI/releases"
+    },
+    {
+      "url": "https://github.com/invoke-ai/InvokeAI",
+      "status": 200,
+      "final": "https://github.com/invoke-ai/InvokeAI"
+    },
+    {
+      "url": "https://invoke-ai.github.io/InvokeAI/installation/",
+      "status": 200,
+      "final": "http://invoke.ai/installation/"
+    },
+    {
+      "url": "https://github.com/Acly/krita-ai-diffusion",
+      "status": 200,
+      "final": "https://github.com/Acly/krita-ai-diffusion"
+    },
+    {
+      "url": "https://github.com/Acly/krita-ai-diffusion#installation",
+      "status": 200,
+      "final": "https://github.com/Acly/krita-ai-diffusion#installation"
+    },
+    {
+      "url": "https://github.com/Acly/krita-ai-diffusion/releases",
+      "status": 200,
+      "final": "https://github.com/Acly/krita-ai-diffusion/releases"
+    },
+    {
+      "url": "https://github.com/lllyasviel/stable-diffusion-webui-forge",
+      "status": 200,
+      "final": "https://github.com/lllyasviel/stable-diffusion-webui-forge"
+    },
+    {
+      "url": "https://github.com/lllyasviel/stable-diffusion-webui-forge#installation",
+      "status": 200,
+      "final": "https://github.com/lllyasviel/stable-diffusion-webui-forge#installation"
+    },
+    {
+      "url": "https://github.com/lllyasviel/stable-diffusion-webui-forge/releases",
+      "status": 200,
+      "final": "https://github.com/lllyasviel/stable-diffusion-webui-forge/releases"
+    },
+    {
+      "url": "https://github.com/Lightricks/LTX-Video",
+      "status": 200,
+      "final": "https://github.com/Lightricks/LTX-Video"
+    },
+    {
+      "url": "https://github.com/Lightricks/LTX-Video#readme",
+      "status": 200,
+      "final": "https://github.com/Lightricks/LTX-Video#readme"
+    },
+    {
+      "url": "https://github.com/Wan-Video/Wan2.1",
+      "status": 200,
+      "final": "https://github.com/Wan-Video/Wan2.1"
+    },
+    {
+      "url": "https://github.com/Wan-Video/Wan2.1#readme",
+      "status": 200,
+      "final": "https://github.com/Wan-Video/Wan2.1#readme"
+    },
+    {
+      "url": "https://github.com/zai-org/CogVideo",
+      "status": 200,
+      "final": "https://github.com/zai-org/CogVideo"
+    },
+    {
+      "url": "https://github.com/zai-org/CogVideo#readme",
+      "status": 200,
+      "final": "https://github.com/zai-org/CogVideo#readme"
+    },
+    {
+      "url": "https://github.com/hpcaitech/Open-Sora",
+      "status": 200,
+      "final": "https://github.com/hpcaitech/Open-Sora"
+    },
+    {
+      "url": "https://hpcaitech.github.io/Open-Sora/",
+      "status": 200,
+      "final": "https://hpcaitech.github.io/Open-Sora/"
+    },
+    {
+      "url": "https://github.com/browser-use/browser-use",
+      "status": 200,
+      "final": "https://github.com/browser-use/browser-use"
+    },
+    {
+      "url": "https://docs.browser-use.com/",
+      "status": 200,
+      "final": "https://docs.browser-use.com/cloud/quickstart"
+    },
+    {
+      "url": "https://github.com/OpenHands/OpenHands",
+      "status": 200,
+      "final": "https://github.com/OpenHands/OpenHands"
+    },
+    {
+      "url": "https://docs.all-hands.dev/",
+      "status": 200,
+      "final": "https://docs.openhands.dev/overview/introduction"
+    },
+    {
+      "url": "https://github.com/OpenHands/OpenHands/releases",
+      "status": 200,
+      "final": "https://github.com/OpenHands/OpenHands/releases"
+    },
+    {
+      "url": "https://github.com/crewAIInc/crewAI",
+      "status": 200,
+      "final": "https://github.com/crewAIInc/crewAI"
+    },
+    {
+      "url": "https://docs.crewai.com/",
+      "status": 200,
+      "final": "https://docs.crewai.com/"
+    },
+    {
+      "url": "https://github.com/microsoft/autogen",
+      "status": 200,
+      "final": "https://github.com/microsoft/autogen"
+    },
+    {
+      "url": "https://microsoft.github.io/autogen/",
+      "status": 200,
+      "final": "https://microsoft.github.io/autogen/"
+    },
+    {
+      "url": "https://github.com/cline/cline",
+      "status": 200,
+      "final": "https://github.com/cline/cline"
+    },
+    {
+      "url": "https://docs.cline.bot/",
+      "status": 200,
+      "final": "https://docs.cline.bot/cline-overview"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases",
+      "status": 200,
+      "final": "https://github.com/cline/cline/releases"
+    },
+    {
+      "url": "https://github.com/Aider-AI/aider",
+      "status": 200,
+      "final": "https://github.com/Aider-AI/aider"
+    },
+    {
+      "url": "https://aider.chat/docs/install.html",
+      "status": 200,
+      "final": "https://aider.chat/docs/install.html"
+    },
+    {
+      "url": "https://github.com/continuedev/continue",
+      "status": 200,
+      "final": "https://github.com/continuedev/continue"
+    },
+    {
+      "url": "https://docs.continue.dev/",
+      "status": 200,
+      "final": "https://docs.continue.dev/"
+    },
+    {
+      "url": "https://github.com/TabbyML/tabby",
+      "status": 200,
+      "final": "https://github.com/TabbyML/tabby"
+    },
+    {
+      "url": "https://tabby.tabbyml.com/docs/",
+      "status": 200,
+      "final": "https://tabby.tabbyml.com/docs/"
+    },
+    {
+      "url": "https://github.com/TabbyML/tabby/releases",
+      "status": 200,
+      "final": "https://github.com/TabbyML/tabby/releases"
+    },
+    {
+      "url": "https://github.com/assafelovic/gpt-researcher",
+      "status": 200,
+      "final": "https://github.com/assafelovic/gpt-researcher"
+    },
+    {
+      "url": "https://docs.gptr.dev/",
+      "status": 200,
+      "final": "https://docs.gptr.dev/"
+    },
+    {
+      "url": "https://github.com/ItzCrazyKns/Vane",
+      "status": 200,
+      "final": "https://github.com/ItzCrazyKns/Vane"
+    },
+    {
+      "url": "https://github.com/ItzCrazyKns/Vane#readme",
+      "status": 200,
+      "final": "https://github.com/ItzCrazyKns/Vane#readme"
+    },
+    {
+      "url": "https://github.com/Future-House/paper-qa",
+      "status": 200,
+      "final": "https://github.com/Future-House/paper-qa"
+    },
+    {
+      "url": "https://github.com/Future-House/paper-qa#readme",
+      "status": 200,
+      "final": "https://github.com/Future-House/paper-qa#readme"
+    },
+    {
+      "url": "https://github.com/LearningCircuit/local-deep-research",
+      "status": 200,
+      "final": "https://github.com/LearningCircuit/local-deep-research"
+    },
+    {
+      "url": "https://github.com/LearningCircuit/local-deep-research#readme",
+      "status": 200,
+      "final": "https://github.com/LearningCircuit/local-deep-research#readme"
+    },
+    {
+      "url": "https://github.com/ace-step/ACE-Step",
+      "status": 200,
+      "final": "https://github.com/ace-step/ACE-Step"
+    },
+    {
+      "url": "https://ace-step.github.io/",
+      "status": 200,
+      "final": "https://ace-step.github.io/"
+    },
+    {
+      "url": "https://github.com/openai/whisper",
+      "status": 200,
+      "final": "https://github.com/openai/whisper"
+    },
+    {
+      "url": "https://github.com/openai/whisper#setup",
+      "status": 200,
+      "final": "https://github.com/openai/whisper#setup"
+    },
+    {
+      "url": "https://github.com/myshell-ai/OpenVoice",
+      "status": 200,
+      "final": "https://github.com/myshell-ai/OpenVoice"
+    },
+    {
+      "url": "https://research.myshell.ai/open-voice",
+      "status": 200,
+      "final": "https://research.myshell.ai/open-voice"
+    },
+    {
+      "url": "https://github.com/SYSTRAN/faster-whisper",
+      "status": 200,
+      "final": "https://github.com/SYSTRAN/faster-whisper"
+    },
+    {
+      "url": "https://github.com/SYSTRAN/faster-whisper#readme",
+      "status": 200,
+      "final": "https://github.com/SYSTRAN/faster-whisper#readme"
+    },
+    {
+      "url": "https://github.com/langflow-ai/langflow",
+      "status": 200,
+      "final": "https://github.com/langflow-ai/langflow"
+    },
+    {
+      "url": "https://docs.langflow.org/",
+      "status": 200,
+      "final": "https://docs.langflow.org/"
+    },
+    {
+      "url": "https://github.com/FlowiseAI/Flowise",
+      "status": 200,
+      "final": "https://github.com/FlowiseAI/Flowise"
+    },
+    {
+      "url": "https://docs.flowiseai.com/",
+      "status": 200,
+      "final": "https://docs.flowiseai.com/"
+    },
+    {
+      "url": "https://github.com/simstudioai/sim",
+      "status": 200,
+      "final": "https://github.com/simstudioai/sim"
+    },
+    {
+      "url": "https://docs.sim.ai/",
+      "status": 200,
+      "final": "https://docs.sim.ai/introduction"
+    },
+    {
+      "url": "https://github.com/activepieces/activepieces",
+      "status": 200,
+      "final": "https://github.com/activepieces/activepieces"
+    },
+    {
+      "url": "https://www.activepieces.com/docs/install/overview",
+      "status": 200,
+      "final": "https://www.activepieces.com/docs/install/overview"
+    },
+    {
+      "url": "https://github.com/storytold/craft-launcher",
+      "status": 200,
+      "final": "https://github.com/storytold/craft-launcher"
+    },
+    {
+      "url": "https://getartcraft.com/apps",
+      "status": 200,
+      "final": "https://getartcraft.com/apps"
+    },
+    {
+      "url": "https://github.com/storytold/craft-launcher/releases",
+      "status": 200,
+      "final": "https://github.com/storytold/craft-launcher/releases"
+    },
+    {
+      "url": "https://github.com/storytold/photocraft",
+      "status": 200,
+      "final": "https://github.com/storytold/photocraft"
+    },
+    {
+      "url": "https://getartcraft.com/apps/photocraft",
+      "status": 200,
+      "final": "https://getartcraft.com/apps/photocraft"
+    },
+    {
+      "url": "https://github.com/storytold/photocraft/releases",
+      "status": 200,
+      "final": "https://github.com/storytold/photocraft/releases"
+    },
+    {
+      "url": "https://github.com/storytold/vectorcraft",
+      "status": 200,
+      "final": "https://github.com/storytold/vectorcraft"
+    },
+    {
+      "url": "https://getartcraft.com/apps/vectorcraft",
+      "status": 200,
+      "final": "https://getartcraft.com/apps/vectorcraft"
+    },
+    {
+      "url": "https://github.com/storytold/vectorcraft/releases",
+      "status": 200,
+      "final": "https://github.com/storytold/vectorcraft/releases"
+    },
+    {
+      "url": "https://github.com/storytold/filmcraft",
+      "status": 200,
+      "final": "https://github.com/storytold/filmcraft"
+    },
+    {
+      "url": "https://getartcraft.com/apps/filmcraft",
+      "status": 200,
+      "final": "https://getartcraft.com/apps/filmcraft"
+    },
+    {
+      "url": "https://github.com/storytold/filmcraft/releases",
+      "status": 200,
+      "final": "https://github.com/storytold/filmcraft/releases"
+    },
+    {
+      "url": "https://github.com/storytold/lightcraft",
+      "status": 200,
+      "final": "https://github.com/storytold/lightcraft"
+    },
+    {
+      "url": "https://getartcraft.com/apps/lightcraft",
+      "status": 200,
+      "final": "https://getartcraft.com/apps/lightcraft"
+    },
+    {
+      "url": "https://github.com/storytold/lightcraft/releases",
+      "status": 200,
+      "final": "https://github.com/storytold/lightcraft/releases"
+    },
+    {
+      "url": "https://github.com/storytold/pdfcraft",
+      "status": 200,
+      "final": "https://github.com/storytold/pdfcraft"
+    },
+    {
+      "url": "https://getartcraft.com/apps/pdfcraft",
+      "status": 200,
+      "final": "https://getartcraft.com/apps/pdfcraft"
+    },
+    {
+      "url": "https://github.com/storytold/pdfcraft/releases",
+      "status": 200,
+      "final": "https://github.com/storytold/pdfcraft/releases"
+    },
+    {
+      "url": "https://github.com/storytold/effectcraft",
+      "status": 200,
+      "final": "https://github.com/storytold/effectcraft"
+    },
+    {
+      "url": "https://getartcraft.com/apps/effectcraft",
+      "status": 200,
+      "final": "https://getartcraft.com/apps/effectcraft"
+    },
+    {
+      "url": "https://github.com/storytold/effectcraft/releases",
+      "status": 200,
+      "final": "https://github.com/storytold/effectcraft/releases"
+    },
+    {
+      "url": "https://github.com/storytold/designcraft",
+      "status": 200,
+      "final": "https://github.com/storytold/designcraft"
+    },
+    {
+      "url": "https://getartcraft.com/apps/designcraft",
+      "status": 200,
+      "final": "https://getartcraft.com/apps/designcraft"
+    },
+    {
+      "url": "https://github.com/storytold/designcraft/releases",
+      "status": 200,
+      "final": "https://github.com/storytold/designcraft/releases"
+    },
+    {
+      "url": "https://github.com/storytold/figcraft",
+      "status": 200,
+      "final": "https://github.com/storytold/figcraft"
+    },
+    {
+      "url": "https://getartcraft.com/apps/figcraft",
+      "status": 200,
+      "final": "https://getartcraft.com/apps/figcraft"
+    },
+    {
+      "url": "https://github.com/storytold/figcraft/releases",
+      "status": 200,
+      "final": "https://github.com/storytold/figcraft/releases"
+    },
+    {
+      "url": "https://github.com/storytold/wordcraft",
+      "status": 200,
+      "final": "https://github.com/storytold/wordcraft"
+    },
+    {
+      "url": "https://getartcraft.com/apps/wordcraft",
+      "status": 200,
+      "final": "https://getartcraft.com/apps/wordcraft"
+    },
+    {
+      "url": "https://github.com/storytold/wordcraft/releases",
+      "status": 200,
+      "final": "https://github.com/storytold/wordcraft/releases"
+    },
+    {
+      "url": "https://github.com/storytold/soundcraft",
+      "status": 200,
+      "final": "https://github.com/storytold/soundcraft"
+    },
+    {
+      "url": "https://getartcraft.com/apps/soundcraft",
+      "status": 200,
+      "final": "https://getartcraft.com/apps/soundcraft"
+    },
+    {
+      "url": "https://github.com/storytold/soundcraft/releases",
+      "status": 200,
+      "final": "https://github.com/storytold/soundcraft/releases"
+    },
+    {
+      "url": "https://github.com/storytold/deckcraft",
+      "status": 200,
+      "final": "https://github.com/storytold/deckcraft"
+    },
+    {
+      "url": "https://getartcraft.com/apps/deckcraft",
+      "status": 200,
+      "final": "https://getartcraft.com/apps/deckcraft"
+    },
+    {
+      "url": "https://github.com/storytold/deckcraft/releases",
+      "status": 200,
+      "final": "https://github.com/storytold/deckcraft/releases"
+    },
+    {
+      "url": "https://github.com/storytold/cadcraft",
+      "status": 200,
+      "final": "https://github.com/storytold/cadcraft"
+    },
+    {
+      "url": "https://getartcraft.com/apps/cadcraft",
+      "status": 200,
+      "final": "https://getartcraft.com/apps/cadcraft"
+    },
+    {
+      "url": "https://github.com/storytold/cadcraft/releases",
+      "status": 200,
+      "final": "https://github.com/storytold/cadcraft/releases"
+    },
+    {
+      "url": "https://github.com/storytold/gridcraft",
+      "status": 200,
+      "final": "https://github.com/storytold/gridcraft"
+    },
+    {
+      "url": "https://getartcraft.com/apps/gridcraft",
+      "status": 200,
+      "final": "https://getartcraft.com/apps/gridcraft"
+    },
+    {
+      "url": "https://github.com/storytold/gridcraft/releases",
+      "status": 200,
+      "final": "https://github.com/storytold/gridcraft/releases"
+    },
+    {
+      "url": "https://github.com/xfactor21/voicebox",
+      "status": 200,
+      "final": "https://github.com/xfactor21/voicebox"
+    },
+    {
+      "url": "https://voicebox.sh",
+      "status": 200,
+      "final": "https://voicebox.sh"
+    },
+    {
+      "url": "https://github.com/jamiepine/voicebox/releases",
+      "status": 200,
+      "final": "https://github.com/jamiepine/voicebox/releases"
+    },
+    {
+      "url": "https://github.com/Lightricks/LTX-2",
+      "status": 200,
+      "final": "https://github.com/Lightricks/LTX-2"
+    },
+    {
+      "url": "https://github.com/Lightricks/LTX-2#readme",
+      "status": 200,
+      "final": "https://github.com/Lightricks/LTX-2#readme"
+    },
+    {
+      "url": "https://github.com/Wan-Video/Wan2.2",
+      "status": 200,
+      "final": "https://github.com/Wan-Video/Wan2.2"
+    },
+    {
+      "url": "https://github.com/Wan-Video/Wan2.2#readme",
+      "status": 200,
+      "final": "https://github.com/Wan-Video/Wan2.2#readme"
+    },
+    {
+      "url": "https://github.com/ace-step/ACE-Step-1.5",
+      "status": 200,
+      "final": "https://github.com/ace-step/ACE-Step-1.5"
+    },
+    {
+      "url": "https://github.com/ace-step/ACE-Step-1.5#readme",
+      "status": 200,
+      "final": "https://github.com/ace-step/ACE-Step-1.5#readme"
+    },
+    {
+      "url": "https://github.com/resemble-ai/chatterbox",
+      "status": 200,
+      "final": "https://github.com/resemble-ai/chatterbox"
+    },
+    {
+      "url": "https://github.com/resemble-ai/chatterbox#readme",
+      "status": 200,
+      "final": "https://github.com/resemble-ai/chatterbox#readme"
+    },
+    {
+      "url": "https://github.com/hexgrad/kokoro",
+      "status": 200,
+      "final": "https://github.com/hexgrad/kokoro"
+    },
+    {
+      "url": "https://github.com/hexgrad/kokoro#readme",
+      "status": 200,
+      "final": "https://github.com/hexgrad/kokoro#readme"
+    },
+    {
+      "url": "https://github.com/QwenLM/Qwen3-TTS",
+      "status": 200,
+      "final": "https://github.com/QwenLM/Qwen3-TTS"
+    },
+    {
+      "url": "https://github.com/QwenLM/Qwen3-TTS#readme",
+      "status": 200,
+      "final": "https://github.com/QwenLM/Qwen3-TTS#readme"
+    }
+  ]
+}

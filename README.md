@@ -6,7 +6,15 @@ HubX is a Windows desktop hub for discovering, organizing, and launching open-so
 
 [Download the latest release](https://github.com/xfactor21/HubX/releases/latest) · [Report an issue](https://github.com/xfactor21/HubX/issues)
 
-## What’s inside
+## Upgrade branch — Phase 1 preview
+
+The `upgrade/catalog-skills-mcp` branch expands the catalog to **53 tools**, including all **13 Crafting Apps plus ArtCraft Launcher**, Voicebox, and newer video, music, and speech tools. Every entry has dated release/source provenance and setup instructions. The branch offers **20 general packages and eight manual hardware choices**; these are not automatic installs or updates to your installed software.
+
+Voicebox links to the xfactor21 fork, while its installer is explicitly labeled as an upstream build—not a fork binary. Older projects remain available with maintenance notices. See the [upgrade plan](UPGRADE-PLAN.md) and [Phase 1 verification](verification/phase1.report/content.md).
+
+This is a tested development preview, **not a new Windows release**. Hardware scanning, Skills, featured REA integration, and MCP setup are later phases. The published **3.1.1** downloads remain unchanged.
+
+## What’s inside the published 3.1.1 release
 
 - **32-project catalog:** search and filter across nine categories.
 - **Local launch targets:** register an executable or a local service URL and open it from HubX.

@@ -1,0 +1,30 @@
+{
+  "native": true,
+  "cards": 53,
+  "filters": 10,
+  "videoCards": 6,
+  "creativeSuiteCards": 14,
+  "guidesRendered": 53,
+  "generalPackages": 20,
+  "hardwareChoices": 8,
+  "registrationPersistence": true,
+  "settingsPersistence": true,
+  "escapeAndDialogLabels": true,
+  "rendererErrors": [],
+  "unapprovedLink": {
+    "ok": false,
+    "message": "Not an approved official project link."
+  },
+  "unregisteredLaunch": {
+    "ok": false,
+    "message": "Register a local target first."
+  },
+  "unknownTool": {
+    "ok": false,
+    "message": "Unknown catalog tool."
+  },
+  "invalidPackage": {
+    "ok": false,
+    "message": "Invalid package selection."
+  }
+}

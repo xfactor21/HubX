@@ -1,0 +1,226 @@
+[
+  {
+    "id": "anythingllm",
+    "repo": "Mintplex-Labs/anything-llm",
+    "version": "v1.18.0",
+    "asset": "AnythingLLMDesktop.exe",
+    "bytes": 407381240,
+    "digest": "sha256:b572dc48fbf6967bd3d7a408468fbdb7aa3adbc75d90fc52421385fd1a799e5e"
+  },
+  {
+    "id": "jan",
+    "repo": "janhq/jan",
+    "version": "v0.8.6",
+    "asset": "Jan_0.8.6_x64-setup.exe",
+    "bytes": 556441144,
+    "digest": "sha256:f47f2d205eb92743bdd60ffe7d3b7b434b45a97a8dce092c1185c97d1f5a5268"
+  },
+  {
+    "id": "krita-ai-diffusion",
+    "repo": "Acly/krita-ai-diffusion",
+    "version": "v1.53.0",
+    "asset": "krita_ai_diffusion-1.53.0.zip",
+    "bytes": 3140257,
+    "digest": "sha256:05b4e4072faecbcfa441a8829c97492cfe35974c92e407d0197db4e78ec91cbe"
+  },
+  {
+    "id": "cline",
+    "repo": "cline/cline",
+    "version": "v4.1.25",
+    "asset": "cline-4.1.25.vsix",
+    "bytes": 9580372,
+    "digest": "sha256:aac83af0513f5168372905c02a72eee3835d32a53b9d635d3b055ed4a7bd71fc"
+  },
+  {
+    "id": "openhands",
+    "repo": "OpenHands/OpenHands",
+    "version": "v1.27.1",
+    "asset": "OpenHands-Agent-Canvas-Setup-1.27.1.exe",
+    "bytes": 140354744,
+    "digest": "sha256:61429b8775030363afd9b43fbe2948e4268bee4d8b09a1d5c036750996d111c8"
+  },
+  {
+    "id": "voicebox",
+    "repo": "jamiepine/voicebox",
+    "version": "v0.5.0",
+    "asset": "Voicebox_0.5.0_x64-setup.exe",
+    "bytes": 541911942,
+    "digest": "sha256:eaf5410e77946f3a76388270112bfc72925dc9d4c305b891ba600b583bc8b3b8"
+  },
+  {
+    "id": "artcraft-launcher",
+    "repo": "storytold/craft-launcher",
+    "version": "v0.5.1",
+    "asset": "artcraft-launcher-0.5.1-windows-x64.msi",
+    "bytes": 9289728,
+    "digest": "sha256:52c997e78942ea2d370382755817714a0066520229378d2bda6e99a760ba0e1b"
+  },
+  {
+    "id": "photocraft",
+    "repo": "storytold/photocraft",
+    "version": "v0.10.0",
+    "asset": "photocraft-0.10.0-windows-x64.msi",
+    "bytes": 70746112,
+    "digest": "sha256:96a2a77093d3cdbfe72e989c9fb5bddcdcec94abb0261ad0617b07e893f4542b"
+  },
+  {
+    "id": "vectorcraft",
+    "repo": "storytold/vectorcraft",
+    "version": "v0.13.1",
+    "asset": "vectorcraft-0.13.1-windows-x64.msi",
+    "bytes": 103026688,
+    "digest": "sha256:35dce2b616e121dfd6caa592c337669a290ba8f5ba4aab3fcf628c3583e28792"
+  },
+  {
+    "id": "filmcraft",
+    "repo": "storytold/filmcraft",
+    "version": "v0.9.0",
+    "asset": "filmcraft-0.9.0-windows-x64.msi",
+    "bytes": 57266176,
+    "digest": "sha256:5db43e23998939bb1edbf20b1413df6bea23ca108b40af7ad7059bdca800540f"
+  },
+  {
+    "id": "lightcraft",
+    "repo": "storytold/lightcraft",
+    "version": "v0.9.1",
+    "asset": "lightcraft-0.9.1-windows-x64.msi",
+    "bytes": 89956352,
+    "digest": "sha256:fd1d5a4235a274cec1bd654067ad48b914f6f59d1ccadbcffc45a1ce35d16ad4"
+  },
+  {
+    "id": "pdfcraft",
+    "repo": "storytold/pdfcraft",
+    "version": "v0.9.0",
+    "asset": "pdfcraft-0.9.0-windows-x64.msi",
+    "bytes": 71999488,
+    "digest": "sha256:372a80ff736b0e1f242f7001a2157de081fa5fdb2192d001b1cbbf7f53739f4b"
+  },
+  {
+    "id": "effectcraft",
+    "repo": "storytold/effectcraft",
+    "version": "v0.11.1",
+    "asset": "effectcraft-0.11.1-windows-x64.msi",
+    "bytes": 51019776,
+    "digest": "sha256:c712bdf9c0c84c3427ff449465a1814639805f35a816f0f78ec6ff49aabd4245"
+  },
+  {
+    "id": "designcraft",
+    "repo": "storytold/designcraft",
+    "version": "v0.9.0",
+    "asset": "designcraft-0.9.0-windows-x64.msi",
+    "bytes": 63664128,
+    "digest": "sha256:f8a6e21012f90f6faed6d88309b4e3aa366c6ff9ce0d80bab53ed7f7aadd582f"
+  },
+  {
+    "id": "figcraft",
+    "repo": "storytold/figcraft",
+    "version": "v0.7.0",
+    "asset": "figcraft-0.7.0-windows-x64.msi",
+    "bytes": 70254592,
+    "digest": "sha256:897e1a2cec07e3cd6ffb024cccc7da4d3a2366c667f69ba539981b6f59051a6f"
+  },
+  {
+    "id": "wordcraft",
+    "repo": "storytold/wordcraft",
+    "version": "v0.8.0",
+    "asset": "wordcraft-0.8.0-windows-x64.msi",
+    "bytes": 81330176,
+    "digest": "sha256:7ca27a11f7122322a2525af4e11308abb70b1cdb2625b5ab95afadcac12d79bb"
+  },
+  {
+    "id": "soundcraft",
+    "repo": "storytold/soundcraft",
+    "version": "v0.8.0",
+    "asset": "soundcraft-0.8.0-windows-x64.msi",
+    "bytes": 11472896,
+    "digest": "sha256:cf7fc07f9d1cf7cd31c0c8c2bef79c6a2e477e23fec4ecefa1cadb21b4db6ded"
+  },
+  {
+    "id": "deckcraft",
+    "repo": "storytold/deckcraft",
+    "version": "v0.8.0",
+    "asset": "deckcraft-0.8.0-windows-x64.msi",
+    "bytes": 63729664,
+    "digest": "sha256:5395e49e170f8a481d6ac990f3a5da9891f7395785b004518db9fef4b2303566"
+  },
+  {
+    "id": "cadcraft",
+    "repo": "storytold/cadcraft",
+    "version": "v0.8.0",
+    "asset": "cadcraft-0.8.0-windows-x64.msi",
+    "bytes": 48795648,
+    "digest": "sha256:285065c77d6b729008206f028cadb9e9c31713952ddf36c4193866d0c8e96093"
+  },
+  {
+    "id": "gridcraft",
+    "repo": "storytold/gridcraft",
+    "version": "v0.8.0",
+    "asset": "gridcraft-0.8.0-windows-x64.msi",
+    "bytes": 14131200,
+    "digest": "sha256:2986211704e8ef791f2efd0278e46b13ed7f23f3da6b247f982c1c2acf81d852"
+  },
+  {
+    "id": "comfyui-nvidia",
+    "repo": "Comfy-Org/ComfyUI",
+    "version": "v0.41.0",
+    "asset": "ComfyUI_windows_portable_nvidia.7z",
+    "bytes": 2010075321,
+    "digest": "sha256:7ff446d6904a9eecdfa07870a06238cc33a6204dcd31726edc6783efd080ac34"
+  },
+  {
+    "id": "comfyui-nvidia-cu126",
+    "repo": "Comfy-Org/ComfyUI",
+    "version": "v0.41.0",
+    "asset": "ComfyUI_windows_portable_nvidia_cu126.7z",
+    "bytes": 1901799620,
+    "digest": "sha256:a6160054bf1f17367bdfa4cac33f176fc275771c0edbcc20ec58c75c39de19af"
+  },
+  {
+    "id": "comfyui-amd",
+    "repo": "Comfy-Org/ComfyUI",
+    "version": "v0.41.0",
+    "asset": "ComfyUI_windows_portable_amd.7z",
+    "bytes": 1627801471,
+    "digest": "sha256:7dd91dec08f4bf6d76adeb9aae0920f2d7ac6101f60be72063b76f86fc67dfb1"
+  },
+  {
+    "id": "comfyui-intel",
+    "repo": "Comfy-Org/ComfyUI",
+    "version": "v0.41.0",
+    "asset": "ComfyUI_windows_portable_intel.7z",
+    "bytes": 1442748194,
+    "digest": "sha256:5f2107e2e2cf86ce9eff3f769507028fd55cebc5972930756fb5dc3558f058b3"
+  },
+  {
+    "id": "forge-nvidia",
+    "repo": "lllyasviel/stable-diffusion-webui-forge",
+    "version": "latest",
+    "asset": "webui_forge_cu124_torch24.7z",
+    "bytes": 1891112892,
+    "digest": null
+  },
+  {
+    "id": "tabby-cpu",
+    "repo": "TabbyML/tabby",
+    "version": "v0.32.0",
+    "asset": "tabby_x86_64-windows-msvc-cpu.zip",
+    "bytes": 35562674,
+    "digest": "sha256:d492b1e49433fcdbe5be954ae54adf56a3f3cc20f8a824fa957b992b5ed3ac78"
+  },
+  {
+    "id": "tabby-cuda124",
+    "repo": "TabbyML/tabby",
+    "version": "v0.32.0",
+    "asset": "tabby_x86_64-windows-msvc-cuda124.zip",
+    "bytes": 159848926,
+    "digest": "sha256:7f6632ccea11a8769ff698c27d11e8dc87e9db5b177999dd298112f2b12fc25d"
+  },
+  {
+    "id": "tabby-vulkan",
+    "repo": "TabbyML/tabby",
+    "version": "v0.32.0",
+    "asset": "tabby_x86_64-windows-msvc-vulkan.zip",
+    "bytes": 44318871,
+    "digest": "sha256:2395d582418a45a6c607c4f47acfa42ca7df6dc16d2932a9ce507e2c77f4cccb"
+  }
+]
