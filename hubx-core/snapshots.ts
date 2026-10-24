@@ -42,14 +42,14 @@ export const snapshots: Record<string, CatalogSnapshot> = {
     "note": "Latest non-prerelease GitHub release; this does not inspect your installed version."
   },
   "comfyui": {
-    "checkedAt": "2026-10-18",
+    "checkedAt": "2026-10-23",
     "repo": "Comfy-Org/ComfyUI",
-    "release": "v0.41.0",
-    "releaseDate": "2026-10-15T22:57:45Z",
-    "commit": "c06bf5f569d268b80076e5f44126f87cdf835869",
-    "commitDate": "2026-10-18T02:37:20Z",
+    "release": "v0.42.1",
+    "releaseDate": "2026-10-19T01:33:54Z",
+    "commit": "d07dff4565ea9804277fff8cdfa0c817e08c3d44",
+    "commitDate": "2026-10-23T02:41:37Z",
     "archived": false,
-    "note": "Latest non-prerelease GitHub release; this does not inspect your installed version."
+    "note": "Latest non-prerelease release checked during Phase 2 hardware-rule review. Modern RTX and legacy GTX portable paths differ; no installed-version inspection is performed."
   },
   "invokeai": {
     "checkedAt": "2026-10-18",

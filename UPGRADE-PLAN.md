@@ -2,6 +2,13 @@
 
 Approved 18 October 2026. Preserve planet.X branding and navy/cyan/pink styling. Work in `upgrade/catalog-skills-mcp`, with a draft pull request. Deliver a tested preview at the end of each phase and wait for approval before beginning the next.
 
+## Checkpoint status — 24 October 2026
+
+- Phase 1 delivered and approved; Phase 2 work authorized.
+- Phase 2 implementation and verification ready for checkpoint review: 69 tests / 637 assertions, typecheck, lint and production build passed. Browser/UI fixtures and a real Linux Electron scan passed. See [verification](verification/phase2.report/content.md).
+- Real Windows scanning, vendor installation and installer lifecycle remain unverified. No new EXEs, merge or release publication at this checkpoint.
+- Pause before Phase 3 (Skills + featured REA); Phases 4 and 5 remain pending.
+
 ## Phase 1 — catalog, freshness, and instructions
 
 - Audit all 32 original entries against official repositories, releases, documentation, and license files.
