@@ -1,0 +1,83 @@
+bun test v1.4.2 (744846f84)
+
+tests/hardware.test.ts:
+(pass) modern NVIDIA uses standard CUDA 13; legacy GTX uses cu126 [83.66ms]
+(pass) each reviewed modern generation is paired with verified compute capability [0.26ms]
+(pass) Windows ARM64 chooses an ARM64 archive, not an x64 archive [0.55ms]
+(pass) manual fallback: AMD vendor alone [0.04ms]
+(pass) manual fallback: Intel vendor alone
+(pass) manual fallback: multiple NVIDIA adapters
+(pass) manual fallback: hybrid Intel/NVIDIA
+(pass) manual fallback: unavailable GPU enumeration
+(pass) manual fallback: partial GPU enumeration
+(pass) manual fallback: no GPUs detected
+(pass) manual fallback: unknown public driver
+(pass) manual fallback: WMI driver string
+(pass) manual fallback: old modern driver
+(pass) manual fallback: unknown capability
+(pass) manual fallback: shared/unknown VRAM
+(pass) manual fallback: insufficient VRAM
+(pass) manual fallback: insufficient RAM
+(pass) manual fallback: unknown RAM
+(pass) manual fallback: insufficient disk
+(pass) manual fallback: unknown disk
+(pass) manual fallback: Linux
+(pass) manual fallback: macOS
+(pass) manual fallback: 32-bit OS
+(pass) manual fallback: unknown architecture
+(pass) manual fallback: unsupported Windows
+(pass) manual fallback: future GPU
+(pass) manual fallback: professional GPU
+(pass) manual fallback: legacy driver too old [0.05ms]
+(pass) resource and driver floors pass at boundary, no guarantee claimed [0.08ms]
+(pass) stale/future rules and unreviewed release require manual verification [0.10ms]
+(pass) nvidia-smi parsing validates types, memory, driver and cc [1.26ms]
+(pass) Windows projection ignores serial, username and truncated AdapterRAM [1.68ms]
+(pass) matching NVIDIA lists never silently merge duplicate or mismatched adapters [0.30ms]
+(pass) Windows native architecture differs from x64 process emulation on ARM [0.06ms]
+(pass) queries have fixed projections without identifying fields or elevation [0.06ms]
+(pass) query output is bounded [21.14ms]
+(pass) query timeout terminates a hanging child [8005.05ms]
+(pass) real local scan reports basic specs and safe fields without requiring GPU [3.23ms]
+
+tests/core.test.ts:
+(pass) catalog has 53 unique complete sequential tools [0.24ms]
+(pass) 20 general packages and nine hardware choices [0.05ms]
+(pass) every catalog entry has dated source provenance and substantive instructions [0.19ms]
+(pass) complete creative suite and explicit Voicebox fork provenance [0.19ms]
+(pass) new source selectors reject other architectures and products [0.56ms]
+(pass) startup checks are opt-in [0.04ms]
+(pass) version-stamped assets select future versions [0.06ms]
+(pass) mixed-product Cline repository selects extension not desktop [0.06ms]
+(pass) missing asset is a visible error, not a silent skip [0.03ms]
+(pass) prerelease/draft releases excluded [0.03ms]
+(pass) ambiguous matches rejected [0.08ms]
+(pass) repository validation > https://github.com/attacker/repo/releases/download/v1/setup.exe [0.04ms]
+(pass) repository validation > https://github.com.evil.test/janhq/jan/releases/download/v1/x
+(pass) repository validation > http://github.com/janhq/jan/releases/download/v1/x
+(pass) repository validation > https://user:pw@github.com/janhq/jan/releases/download/v1/x
+(pass) repository validation > unsafe filename [0.03ms]
+(pass) repository validation > invalid checksum [0.12ms]
+(pass) repository validation > invalid size [0.14ms]
+(pass) local URLs accept localhost, ipv6, private LAN [0.21ms]
+(pass) remote, unsafe and credential URLs rejected [0.10ms]
+(pass) byte units use MiB/GiB not mislabeled MB [0.09ms]
+
+tests/downloads.test.ts:
+(pass) streams bytes and verifies published SHA-256 [10.40ms]
+(pass) checksum mismatch preserves prior valid package and cleans partials [2.55ms]
+(pass) wrong size rejected and partial cleaned [2.16ms]
+(pass) unapproved redirect rejected [0.54ms]
+(pass) cancellation cleans temporary file [2.32ms]
+(pass) no digest does not pretend checksum verified [1.96ms]
+
+tests/storage.test.ts:
+(pass) legacy registrations migrate safely [1.87ms]
+(pass) atomic settings round-trip [1.36ms]
+(pass) concurrent writes serialize without lost updates [1.18ms]
+(pass) corrupt settings are preserved for recovery [0.80ms]
+
+ 69 pass
+ 0 fail
+ 637 expect() calls
+Ran 69 tests across 4 files. [8.44s]

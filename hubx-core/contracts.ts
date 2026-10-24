@@ -1,4 +1,5 @@
 import type { Offer } from './releases';
+import type { ScanResult } from './hardware';
 export interface Registration { kind: 'file' | 'url'; target: string }
 export interface Settings { automaticChecks: boolean }
 export interface LocalState { settings: Settings; registrations: Record<string,Registration>; downloads: Record<string,Offer>; welcomed: boolean }
@@ -6,6 +7,7 @@ export interface Progress { id: string; received: number; total: number; status:
 export interface Result { ok: boolean; message?: string; state?: LocalState; cancelled?: boolean }
 export interface HubAPI {
   getState(): Promise<LocalState>;
+  scanHardware(consent: boolean): Promise<ScanResult>;
   saveSettings(settings: Settings): Promise<Result>;
   welcome(): Promise<Result>;
   setUrl(id: string, url: string): Promise<Result>;

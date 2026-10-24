@@ -7,12 +7,15 @@ import { Store } from './store';
 import { streamDownload } from './downloads';
 import { tools } from '../../../hubx-core/catalog';
 import { sources, resolveSource, validLocalUrl, type Offer } from '../../../hubx-core/releases';
+import { hardwareEvidence } from '../../../hubx-core/hardware';
+import { scanHardware } from './hardware';
 
 export async function registerIpcHandlers(getWindow:()=>BrowserWindow|null) {
   const root=process.env.HUBX_TEST_DATA || path.join(app.getPath('appData'),'Open Source Hub');
   const store=new Store(root); await store.load();
   const offers=new Map<string,Offer>();
   const active=new Map<string,AbortController>();
+  let scanning=false;
   const downloadedPath=(o:Offer)=>path.join(root,'managed-downloads',o.id,o.version!.replace(/[^a-zA-Z0-9._-]/g,'_'),o.name!);
   const handle=(channel:string,fn:(...args:any[])=>any)=>ipcMain.handle(channel,async(event,...args)=>{
     if(event.sender!==getWindow()?.webContents || event.senderFrame!==event.sender.mainFrame) throw new Error('Untrusted IPC sender.');
@@ -23,6 +26,12 @@ export async function registerIpcHandlers(getWindow:()=>BrowserWindow|null) {
   handle('window:close',()=>getWindow()?.close());
   const tool=(id:string)=>{ if(!tools.some(t=>t.id===id)) throw new Error('Unknown catalog tool.'); };
   handle('hub:state',()=>structuredClone(store.state));
+  handle('hub:hardware',async(consent:unknown)=>{
+    if(consent!==true) throw new Error('Explicit local hardware scan consent is required.');
+    if(scanning) throw new Error('A local hardware scan is already running.');
+    scanning=true;
+    try {return {ok:true,report:await scanHardware(root)};} finally {scanning=false;}
+  });
   handle('hub:settings',async(s:unknown)=>({ok:true,state:await store.update(st=>{st.settings={automaticChecks:(s as any)?.automaticChecks===true};})}));
   handle('hub:welcome',async()=>({ok:true,state:await store.update(s=>{s.welcomed=true;})}));
   handle('hub:url',async(id:string,url:string)=>{
@@ -44,7 +53,7 @@ export async function registerIpcHandlers(getWindow:()=>BrowserWindow|null) {
   });
   handle('hub:official',async(url:string)=>{
     // Exact catalog/release-page allowlist, not an arbitrary HTTP(S) escape hatch.
-    const allowed=new Set([...tools.flatMap(t=>[t.sourceUrl,t.setupUrl,...t.downloads.map(d=>d.url)]),...sources.map(s=>`https://github.com/${s.repo}/releases`)]);
+    const allowed=new Set([...tools.flatMap(t=>[t.sourceUrl,t.setupUrl,...t.downloads.map(d=>d.url)]),...sources.map(s=>`https://github.com/${s.repo}/releases`),...hardwareEvidence.map(s=>s.url)]);
     if(!allowed.has(url)) throw new Error('Not an approved official project link.');
     await shell.openExternal(url);return {ok:true};
   });

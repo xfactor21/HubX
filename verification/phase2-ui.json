@@ -1,0 +1,57 @@
+{
+  "browser": {
+    "cards": 53,
+    "guidesRendered": 53,
+    "browserScanUnavailable": true,
+    "manualHardwareChoices": 9,
+    "creativeSuite": 14,
+    "mobile390NoOverflow": true,
+    "rendererErrors": []
+  },
+  "syntheticWindowsFixtures": {
+    "modern": {
+      "consentGate": true,
+      "noAutomaticCheckOrDownload": true,
+      "forgetResults": true,
+      "rendererErrors": []
+    },
+    "legacy": {
+      "consentGate": true,
+      "noAutomaticCheckOrDownload": true,
+      "forgetResults": true,
+      "rendererErrors": []
+    },
+    "arm64": {
+      "consentGate": true,
+      "noAutomaticCheckOrDownload": true,
+      "forgetResults": true,
+      "rendererErrors": []
+    },
+    "unknown-driver": {
+      "consentGate": true,
+      "noAutomaticCheckOrDownload": true,
+      "forgetResults": true,
+      "rendererErrors": []
+    },
+    "failed-scan": {
+      "visibleError": true,
+      "noFabricatedReport": true
+    },
+    "unreviewed-release": {
+      "manualVerificationWarning": true,
+      "cancelledNoDownload": true
+    }
+  },
+  "native": {
+    "native": true,
+    "realPlatform": "linux",
+    "consentFalseRejected": true,
+    "realScanPartialFallback": true,
+    "officialEvidenceLinks": 6,
+    "noReleaseCheckOrHardwareUploadDuringScan": true,
+    "noScanInPersistedState": true,
+    "forgetAndReloadClear": true,
+    "manualHardwareChoices": 9,
+    "rendererErrors": []
+  }
+}

@@ -17,6 +17,7 @@ contextBridge.exposeInMainWorld("electronAPI", {
 });
 contextBridge.exposeInMainWorld("hubx", {
  getState:()=>ipcRenderer.invoke('hub:state'),
+ scanHardware:(consent:boolean)=>ipcRenderer.invoke('hub:hardware',consent),
  saveSettings:(s:unknown)=>ipcRenderer.invoke('hub:settings',s),
  welcome:()=>ipcRenderer.invoke('hub:welcome'),
  setUrl:(id:string,url:string)=>ipcRenderer.invoke('hub:url',id,url),

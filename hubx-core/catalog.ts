@@ -1,4 +1,7 @@
-export const tools = [
+import { additions } from './additions';
+import type { CatalogEntry } from './catalog-types';
+
+const originalTools: CatalogEntry[] = [
   {
     id: "anythingllm", name: "AnythingLLM", category: "AI assistants", marker: "01", accent: "cyan", license: "MIT", delivery: "Official Windows installer", runtime: "Desktop application; connect a local or cloud model provider.",
     description: "Local-first AI workspace for chat, documents, research, and agent-style workflows.", sourceUrl: "https://github.com/Mintplex-Labs/anything-llm", setupUrl: "https://anythingllm.com/download", downloads: [{ label: "Windows installer", url: "https://github.com/Mintplex-Labs/anything-llm/releases" }]
@@ -9,7 +12,7 @@ export const tools = [
   },
   {
     id: "librechat", name: "LibreChat", category: "AI assistants", marker: "03", accent: "violet", license: "MIT", delivery: "Self-hosted application", runtime: "Docker or Node.js setup; an LLM provider and optional database configuration are required.",
-    description: "Self-hosted multi-provider chat interface with agents, tools, presets, and team-oriented controls.", sourceUrl: "https://github.com/danny-avila/LibreChat", setupUrl: "https://www.librechat.ai/docs/", downloads: []
+    description: "Self-hosted multi-provider chat interface with agents, tools, presets, and team-oriented controls.", sourceUrl: "https://github.com/LibreChat-AI/LibreChat", setupUrl: "https://www.librechat.ai/docs/", downloads: []
   },
   {
     id: "khoj", name: "Khoj", category: "AI assistants", marker: "04", accent: "lime", license: "AGPL-3.0", delivery: "Self-hosted application", runtime: "Run with the project’s supported local, Docker, or hosted deployment path and connect a supported LLM.",
@@ -44,8 +47,8 @@ export const tools = [
     description: "Open large-scale video-generation models and inference resources from Wan-Video.", sourceUrl: "https://github.com/Wan-Video/Wan2.1", setupUrl: "https://github.com/Wan-Video/Wan2.1#readme", downloads: []
   },
   {
-    id: "cogvideox", name: "CogVideoX-2B", category: "Video", marker: "11", accent: "violet", license: "Apache-2.0", delivery: "Model and source project", runtime: "Python environment and downloadable model weights are required.",
-    description: "2B-parameter text-to-video model available through the CogVideo project.", sourceUrl: "https://github.com/zai-org/CogVideo", setupUrl: "https://github.com/zai-org/CogVideo#readme", downloads: []
+    id: "cogvideox", name: "CogVideoX", category: "Video", marker: "11", accent: "violet", license: "Apache-2.0 (code); model terms vary", delivery: "Model and source project", runtime: "Python environment and downloadable model weights are required. Model sizes and licenses vary; choose the documented supported variant.",
+    description: "CogVideoX video-generation family including newer 1.5 variants; existing local registrations stay intact.", sourceUrl: "https://github.com/zai-org/CogVideo", setupUrl: "https://github.com/zai-org/CogVideo#readme", downloads: []
   },
   {
     id: "open-sora", name: "Open-Sora", category: "Video", marker: "12", accent: "lime", license: "Apache-2.0", delivery: "Model and source project", runtime: "Python environment, a compatible GPU, and model checkpoints are required.",
@@ -56,7 +59,7 @@ export const tools = [
     description: "Python framework for building AI agents that interact with websites through browser automation.", sourceUrl: "https://github.com/browser-use/browser-use", setupUrl: "https://docs.browser-use.com/", downloads: []
   },
   {
-    id: "openhands", name: "OpenHands", category: "Agents", marker: "14", accent: "pink", license: "MIT", delivery: "Official Windows installer", runtime: "Install the agent desktop application, then configure a supported provider or local model.",
+    id: "openhands", name: "OpenHands Agent Canvas", category: "Agents", marker: "14", accent: "pink", license: "MIT", delivery: "Official Windows installer", runtime: "Install Agent Canvas, then configure the supported runtime and model provider. Approve access to project directories.",
     description: "AI-driven software-development agent platform with a packaged Windows desktop option.", sourceUrl: "https://github.com/OpenHands/OpenHands", setupUrl: "https://docs.all-hands.dev/", downloads: [{ label: "Windows setup", url: "https://github.com/OpenHands/OpenHands/releases" }]
   },
   {
@@ -133,4 +136,5 @@ export const tools = [
   }
 ];
 
-export type Tool = (typeof tools)[number];
+export const tools: CatalogEntry[] = [...originalTools, ...additions].map((tool, i) => ({ ...tool, marker: String(i + 1).padStart(2, '0') }));
+export type Tool = CatalogEntry;

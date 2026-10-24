@@ -79,3 +79,6 @@ packages/desktop/web-dist/
 .env.*
 !.env.template
 task.md
+
+# Local upstream research captures; curated verification is tracked separately.
+research/

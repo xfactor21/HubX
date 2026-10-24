@@ -1,0 +1,53 @@
+$ turbo build
+• turbo 2.9.18
+
+   • Packages in scope: @hubx/desktop, @template/mobile, @template/web
+   • Running build in 3 packages
+   • Remote caching disabled
+
+@template/web:build: cache hit, replaying logs 82b5b1e4a79d4cd0
+@template/web:build: $ tsc --noEmit && vite build
+@template/web:build: vite v7.3.2 building client environment for production...
+@template/web:build: (node:16105) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+@template/web:build: (Use `node --trace-deprecation ...` to show where the warning was created)
+@template/web:build: transforming...
+@template/web:build: ✓ 120 modules transformed.
+@template/web:build: rendering chunks...
+@template/web:build: computing gzip size...
+@template/web:build: dist/index.html                   0.58 kB │ gzip:   0.37 kB
+@template/web:build: dist/assets/index-DftK1dMK.css   34.85 kB │ gzip:   8.39 kB
+@template/web:build: dist/assets/vendor-Cx0hMvIw.js   60.10 kB │ gzip:  18.93 kB
+@template/web:build: dist/assets/index-B6k40su-.js   528.47 kB │ gzip: 161.16 kB
+@template/web:build:
+@template/web:build: (!) Some chunks are larger than 500 kB after minification. Consider:
+@template/web:build: - Using dynamic import() to code-split the application
+@template/web:build: - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+@template/web:build: - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+@template/web:build: ✓ built in 1.81s
+@hubx/desktop:build: cache hit, replaying logs a1ba8d7e10d61e25
+@hubx/desktop:build: $ vite build
+@hubx/desktop:build: vite v5.4.21 building for production...
+@hubx/desktop:build: transforming...
+@hubx/desktop:build: ✓ 1 modules transformed.
+@hubx/desktop:build: rendering chunks...
+@hubx/desktop:build: computing gzip size...
+@hubx/desktop:build: dist/assets/__no-renderer-DoO8kPjk.js  0.06 kB │ gzip: 0.08 kB
+@hubx/desktop:build: ✓ built in 52ms
+@hubx/desktop:build: vite v5.4.21 building for production...
+@hubx/desktop:build: transforming...
+@hubx/desktop:build: ✓ 16 modules transformed.
+@hubx/desktop:build: rendering chunks...
+@hubx/desktop:build: computing gzip size...
+@hubx/desktop:build: dist-electron/main.js  53.85 kB │ gzip: 16.42 kB
+@hubx/desktop:build: ✓ built in 302ms
+@hubx/desktop:build: vite v5.4.21 building for production...
+@hubx/desktop:build: transforming...
+@hubx/desktop:build: ✓ 2 modules transformed.
+@hubx/desktop:build: rendering chunks...
+@hubx/desktop:build: computing gzip size...
+@hubx/desktop:build: dist-electron/preload.mjs  1.60 kB │ gzip: 0.54 kB
+@hubx/desktop:build: ✓ built in 20ms
+
+ Tasks:    2 successful, 2 total
+Cached:    2 cached, 2 total
+  Time:    634ms >>> FULL TURBO

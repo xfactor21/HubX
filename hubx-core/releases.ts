@@ -1,3 +1,5 @@
+import { craftApps } from './additions';
+
 export const VERSION = '3.1.1';
 export interface PackageSource { id: string; toolId: string; label: string; repo: string; assetPattern: string; kind: string; hardware?: string; note: string }
 export interface ReleaseAsset { name: string; size: number; browser_download_url: string; digest?: string | null }
@@ -8,7 +10,12 @@ export const sources: PackageSource[] = [
   {id:'jan',toolId:'jan',label:'Jan',repo:'janhq/jan',assetPattern:'^Jan_.*_x64-setup\\.exe$',kind:'Windows installer',note:'Models and hardware configuration are separate.'},
   {id:'krita-ai-diffusion',toolId:'krita-ai-diffusion',label:'Krita AI Diffusion',repo:'Acly/krita-ai-diffusion',assetPattern:'^krita_ai_diffusion-[0-9.]+\\.zip$',kind:'Krita plugin ZIP',note:'Requires Krita and a configured diffusion backend.'},
   {id:'cline',toolId:'cline',label:'Cline',repo:'cline/cline',assetPattern:'^(?:claude-dev|cline)-[0-9.]+\\.vsix$',kind:'Editor extension',note:'Requires a compatible editor and chosen model provider.'},
+  {id:'openhands',toolId:'openhands',label:'OpenHands Agent Canvas',repo:'OpenHands/OpenHands',assetPattern:'^OpenHands-Agent-Canvas-Setup-[0-9.]+\\.exe$',kind:'Windows x64 installer',note:'Configure project access, backend runtime and provider after installing.'},
+  {id:'voicebox',toolId:'voicebox',label:'Voicebox — upstream distribution',repo:'jamiepine/voicebox',assetPattern:'^Voicebox_[0-9.]+_x64-setup\\.exe$',kind:'Windows x64 installer',note:'Upstream binary, not the xfactor21 fork build. Review model/runtime downloads inside Voicebox.'},
+  ...[['craft-launcher','artcraft-launcher','artcraft-launcher','ArtCraft Launcher'], ...craftApps.map(([id,name])=>[id,id,id,name])].map(([repo,toolId,prefix,label]) => ({id:toolId!,toolId:toolId!,label:label!,repo:`storytold/${repo}`,assetPattern:`^${prefix}-[0-9.]+-windows-x64\\.msi$`,kind:'Windows x64 MSI',note:'Early-development suite. ARM64/x86 builds are available on the official releases page; this offer is x64 only.'})),
   {id:'comfyui-nvidia',toolId:'comfyui',label:'ComfyUI — NVIDIA',repo:'Comfy-Org/ComfyUI',assetPattern:'^ComfyUI_windows_portable_nvidia\\.7z$',kind:'7-Zip runtime',hardware:'NVIDIA',note:'Check GPU/driver requirements; models are separate.'},
+  {id:'comfyui-nvidia-arm64',toolId:'comfyui',label:'ComfyUI — NVIDIA ARM64',repo:'Comfy-Org/ComfyUI',assetPattern:'^ComfyUI_windows_portable_nvidia_arm64\\.7z$',kind:'Windows ARM64 7-Zip runtime',hardware:'NVIDIA ARM64',note:'Windows on ARM with supported NVIDIA GPU/driver; not the x64 portable build.'},
+  {id:'comfyui-nvidia-cu126',toolId:'comfyui',label:'ComfyUI — NVIDIA CUDA 12.6',repo:'Comfy-Org/ComfyUI',assetPattern:'^ComfyUI_windows_portable_nvidia_cu126\\.7z$',kind:'7-Zip runtime',hardware:'NVIDIA',note:'Alternative CUDA build. Check the official README for supported GPUs/drivers; not a universal compatibility fallback.'},
   {id:'comfyui-amd',toolId:'comfyui',label:'ComfyUI — AMD',repo:'Comfy-Org/ComfyUI',assetPattern:'^ComfyUI_windows_portable_amd\\.7z$',kind:'7-Zip runtime',hardware:'AMD',note:'Check supported AMD hardware and drivers.'},
   {id:'comfyui-intel',toolId:'comfyui',label:'ComfyUI — Intel',repo:'Comfy-Org/ComfyUI',assetPattern:'^ComfyUI_windows_portable_intel\\.7z$',kind:'7-Zip runtime',hardware:'Intel',note:'Check supported Intel hardware and drivers.'},
   {id:'forge-nvidia',toolId:'forge',label:'Forge — NVIDIA',repo:'lllyasviel/stable-diffusion-webui-forge',assetPattern:'^webui_forge_cu124_torch24\\.7z$',kind:'CUDA archive',hardware:'NVIDIA',note:'CUDA compatibility and models require user setup.'},

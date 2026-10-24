@@ -1,0 +1,15 @@
+{
+  "native": false,
+  "cards": 53,
+  "filters": 10,
+  "videoCards": 6,
+  "creativeSuiteCards": 14,
+  "guidesRendered": 53,
+  "generalPackages": 20,
+  "hardwareChoices": 8,
+  "registrationPersistence": true,
+  "settingsPersistence": true,
+  "escapeAndDialogLabels": true,
+  "rendererErrors": [],
+  "mobile390NoOverflow": true
+}
